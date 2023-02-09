@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2? family=Kumbh+Sans:wght@400;700&family=Lexend+Deca:wght@400;500&family=Oleo+Script+Swash+Caps&family=Raleway:ital,wght@0,100;0,200;0,300;0,500;1,100;1,200;1,300;1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    border: 0;
+}
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 9px;
+    font-size: 62.5%;
+    overflow-x: hidden;
+   
+   
+}
+body{
+    background-color: #111;
+    
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 50px;
+    padding: 10px 8%;  
+    background-color: #222;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 20;
+    height: 50px;
+}
+.logo a{
+  font-size: 30px;
+  color: #fff;
+}
+.logo span{
+    color: aquamarine;
+}
+.liste{
+    display: flex;
+    list-style: none;
+}
+.liste li{
+   margin-right: 30px;
+   
+}
+.liste li a{
+    color: #fff; 
+    font-size: 14px;  
+ }
+.bouton{
+    padding: 5px 2%;
+    color: aquamarine;
+    background-color: #000;
+    border: 2px solid aquamarine;
+    font-size: 14px;  
+}
+.bouton:hover{
+ background-color: aquamarine;
+ font-weight: bold;
+ color: #fff;
+}
+
