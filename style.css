@@ -11,9 +11,7 @@ html{
     scroll-behavior: smooth;
     scroll-padding-top: 9px;
     font-size: 62.5%;
-    overflow-x: hidden;
-   
-   
+    overflow-x: hidden; 
 }
 body{
     background-color: #111;
@@ -51,6 +49,14 @@ header{
 .liste li a{
     color: #fff; 
     font-size: 14px;  
+    padding-top: 5px;
+ }
+ .liste li a:hover{
+    color: aquamarine; 
+    background-color: #000;
+    border-bottom: 2px solid aquamarine;  
+    padding-bottom: 5px; 
+    border-radius: 50%;
  }
 .bouton{
     padding: 5px 2%;
@@ -65,3 +71,82 @@ header{
  color: #fff;
 }
 
+/* partie sous logo */
+
+.sous_logo{
+    font-size: 15px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   background: linear-gradient(rgba(0,0,0,0.1), #333), url(images/img1.jpg);
+   height: 100vh;
+   background-position: center;
+   background-size: cover;
+   position: relative;
+   margin-top: 50px; 
+}
+.sous_logo h2{
+   margin-bottom: 15px;
+   text-transform: uppercase;
+}
+.sous_logo h4{
+   font-size: 45px;
+   margin-bottom: 15px;
+ }
+ .sous_logoo{
+     margin-top: 10px;
+     background-color: transparent;
+ }
+
+ /* partie des imput */
+
+ .imputlist{
+    position: absolute;
+    bottom: -50px;
+    background-color: #222;
+    padding: 20px;
+    width: 70%;
+    height: 100px;
+ }
+ .imputlist form{
+   display: flex;
+   width: 100%;
+   justify-content: space-between;
+   align-items: flex-end;
+}
+ .imputlist form div , .imputlist form input[type="submit"] {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+.imputlist form label{
+   color: #999;
+   font-size: 15px;
+   margin-bottom: 15px;
+  }
+  .imputlist form input{
+    padding: 5px 20px;
+    background-color: transparent;
+    border: 2px solid aquamarine;
+    outline: 0;
+    width: 100%;
+    font-size: 13px;
+    color: #fff;
+  }
+  .imputlist form input[type="submit"]{
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: aquamarine;
+    cursor: pointer;
+    transition: .2s;
+    width: 100px;
+  }
+  .imputlist form input[type="submit"]:hover{
+   box-shadow: 0 0 10px aquamarine;
+  
+  }
+  
+  
